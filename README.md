@@ -14,9 +14,7 @@ Requerimientos de la página para completar
 
   - Inicio del proyecto: (Sábado, 25, Abril del 2023)
   
-   =======================================
     ## SEMANA MUESTRA PRIMER PROTOTIPO 
-   =======================================
 
   **Avances por día - Primera Semana:** 
    - Sábado, 22 de Abril: Ideas iniciales, layout (bocetos concepetuales y maqueta)
@@ -52,9 +50,8 @@ Requerimientos de la página para completar
    - Viernes, 19 de Mayo: Desarrollo bóton de Dark Mode, pruebas y integración en el nav-bar
    - Sábado, 20 de Mayo: *-- Segunda muestra de prototipo v0.2 implementando cambios (FALTA IMPLEMENTAR PRE-REGISTER FORM, DARKMODE y NAVBAR BUTTON) --*
    
-   =========================================
      ## SEMANA PRIMERA CARGA DE LA PÁGINA 
-   =========================================
+
  **Avances por día - Quinta Semana (Desarrollo de conceptos faltantes de la version 0.2 de la página)**
    - Lunes, 22 de Mayo: Integración del formulario de inscripción con ancla de "Inscripción del navbar"
    - Martes, 23 de Mayo: Creación del botón del navbar y pruebas en responsive.
