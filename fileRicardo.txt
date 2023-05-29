@@ -1,3 +1,0 @@
-Archivo de texto de prueba creado por Ricardo.
-
-- Comentario de prueba para verificar que no genera error al hacer push.
