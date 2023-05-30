@@ -16,7 +16,7 @@ const Comment = () => {
   return (
     <div className="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl min-h-80">
       <div className="w-full md:w-2/5 h-full rounded-t-lg md:rounded-t-none md:rounded-l-lg min-h-80">
-        <img className="inset-0 w-full h-96 object-cover object-center" src={imgCommet[comments[ComentarioActual].image]} alt={`Foto de ${comments[ComentarioActual].name}`} />
+        <img className="inset-0 w-full h-96 object-cover object-center" loading="lazy" src={imgCommet[comments[ComentarioActual].image]} alt={`Foto de ${comments[ComentarioActual].name}`} />
       </div>
       <div className="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
         <div className="grid grid-cols-1 gap-5 md:gap-10 p-6 md:pr-24 md:pl-16 md:py-12">
@@ -27,7 +27,7 @@ const Comment = () => {
           <div>
             <p className="text-red-600 text-right font-bold text-lg sm:text-xl">{comments[ComentarioActual].name}</p>
             <p className="text-red-600 text-right text-lg sm:text-xl">{comments[ComentarioActual].location}
-              <img className='inline-flex pl-2' src={flags[comments[ComentarioActual].flag]} alt={`Foto de ${comments[ComentarioActual].flag}`} />
+              <img className='inline-flex pl-2 w-8 h-6' loading="lazy" src={flags[comments[ComentarioActual].flag]} alt={`Bandera de ${comments[ComentarioActual].flag}`} />
             </p>
           </div>
         </div>

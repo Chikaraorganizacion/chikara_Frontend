@@ -5,7 +5,7 @@ const MemberCard = (props) => {
 
   return (
     <div className="text-center">
-      <img className="rounded-full w-32 h-32 mx-auto shadow-xl" src={avatar[photo]} alt={`Foto de "${name}"`} />
+      <img className="rounded-full w-32 h-32 mx-auto shadow-xl" loading="lazy" src={avatar[photo]} alt={`Foto de "${name}"`} />
       <div className="mt-2 sm:mt-4">
         <h3 className="text-lg font-medium text-gray-800">{name}</h3>
         <p className="text-base text-gray-600">{job}</p>

@@ -1,7 +1,7 @@
-import douso from '../logosSponsors/douso.png'
-import jp101 from '../logosSponsors/japanesepop.jpg'
-import japanFoundation from '../logosSponsors/japanFoundation.png'
-import plataforma from '../logosSponsors/plataforma.jpg'
+import douso from '../logosSponsors/douso.webp'
+import jp101 from '../logosSponsors/japanesepop.webp'
+import japanFoundation from '../logosSponsors/japanFoundation.webp'
+import plataforma from '../logosSponsors/plataforma.webp'
 
 
 export default {

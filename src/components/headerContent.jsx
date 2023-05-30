@@ -3,7 +3,6 @@ import React, { useRef } from 'react'
 import NavBarContent from '../components/navBarContent'
 import BannerContent from './bannerContent'
 import BgNavBar from '../hooks/createBgNavBar'
-import ButtonMenu from '../hooks/createButtonMenu'
 import logos from '../assets/logos/logos'
 
 const HeaderContent = () => {
@@ -11,16 +10,14 @@ const HeaderContent = () => {
   return (
     <div id='header' className="bg-[url('/src/assets/background/bg-header.webp')] bg-cover h-screen shadow-xl">
       <BgNavBar headerRef={headerRef} />
-      <header className="p-10 flex items-center justify-center filter:none fixed top-0 left-0 right-0 z-10" ref={headerRef}>
-        <div className='lg:static max-h-16 lg:flex lg:items-center lg:visible hidden'>
-          <figure className="bg-white shadow-md rounded-full lg:flex-none hover:-translate-y-1 hover:scale-75 hover:bg-white duration-300">
+      <header className="p-6 flex items-center fixed top-0 left-0 right-0 z-20 xl:p-12" ref={headerRef}>
+          <figure className="bg-white shadow-md rounded-full hover:shadow-2xl hover:shadow-slate-50 lg:flex lg:flex-none lg:visible hidden">
             <a href="https://chikaraoficial.org/">
-              <img className="h-32 w-auto lg:h-20" src={logos.mainLogo} alt="chikara" />
+              <img className="h-32 w-auto lg:h-20" loading="lazy" src={logos.mainLogo} alt="chikara" />
             </a>
           </figure>
-        </div>
-
-        <nav className="flex-1 lg:sticky lg:bottom-auto lg:right-0 lg:top-0">
+         
+        <nav className="fixed z-40 right-4 bottom-4 flex-1 lg:sticky lg:bottom-auto lg:right-0 lg:top-0">
           <NavBarContent></NavBarContent>
         </nav>
       </header>

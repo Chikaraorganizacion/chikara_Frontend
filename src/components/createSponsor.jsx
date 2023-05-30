@@ -4,9 +4,9 @@ const Sponsor = (props) => {
   const {name, url, logo} = props
 
   return (
-    <li className="flex justify-center items-center p-6 border border-gray-200 mb-6 hover:border-gray-400 transition hover:bg-red-50 flex-1 shadow-xl">
+    <li className="flex justify-center items-center p-6 border border-gray-200 mb-6 hover:border-gray-400 hover:bg-red-50 flex-1 shadow-xl">
       <a href={url} target="_blank">
-        <img className="max-h-24" src={logosSponsors[logo]} alt={`Logo de "${name}"`} />
+        <img className="max-h-24" loading="lazy" src={logosSponsors[logo]} alt={`Logo de "${name}"`} />
       </a> 
     </li>
   )

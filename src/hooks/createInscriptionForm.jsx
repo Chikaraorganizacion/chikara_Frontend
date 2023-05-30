@@ -112,9 +112,9 @@ const InscriptionForm = () => {
   return (
     <div className="">
       <button
-        className="flex py-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white  lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent"
+        className="flex p-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white  lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent"
         onClick={() => setOpenModal(!openModal)}
-      >Inscripción</button>
+      ><span className="lg:hidden visible">🙋</span>Inscripción</button>
       {!openModal && (
 
         <div className={`relative z-20 lg:left-20 lg:top-80 flex items-center justify-center lg:w-full lg:h-full bg-gray-100 shadow-md shadow-gray-900 rounded border-2 border-red-500 py-6 px-4 opacity-100 scale-100 ${openModal ? 'filter blur-sm' : ''}`}>

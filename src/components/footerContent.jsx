@@ -9,13 +9,13 @@ const FooterContent = () => {
       <div>
         <a className="flex-none text-xl font-semibold text-black dark:text-white" href="https://chikaraoficial.org" aria-label="Marca">
           <div className='flex items-center justify-center'>
-            <img src={logos.mainLogo} alt="Logo Chikara" className='h-10 bg-white rounded-full'/>
-            <img src={logos.chikaraName} alt="Logo con nombre chikara" className='h-10'/>
+            <img loading="lazy" src={logos.mainLogo} alt="Logo Chikara" className='h-10 bg-white rounded-full'/>
+            <img loading="lazy" src={logos.chikaraName} alt="Logo con nombre chikara" className='h-10'/>
           </div>
         </a>
       </div>
       <div className="mt-3">
-        <p className="text-gray-500">Desarrollado por <a className="font-semibold text-red-600 hover:text-red-700" href="#">Douso</a> SAS</p>
+        <p className="text-gray-500">Desarrollado por <a className="font-semibold text-red-600 hover:text-red-700" href="https://douso.com.co/" target="_blank">Douso</a> SAS</p>
         <p className="text-gray-500">© ChirakaOficial. 2023. Todos los derechos reservados.</p>
       </div>
       <nav>
