@@ -1,22 +1,16 @@
 import ReactDOM from 'react-dom/client'
-
-import HeaderContent from './components/headerContent'
-import MainContent from './components/mainContent'
-import FooterContent from './components/footerContent'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/home'
+import Inscription from './pages/inscription'
 
 function App() {
   
   return (
-    <div className="text-gray-700 bg-no-repeat bg-center-top grid grid-cols-1">
-      <HeaderContent></HeaderContent>
-
-      <main className='h-100 w-auto '>
-        <MainContent></MainContent>
-      </main>
-
-      <footer className="mt-auto w-full py-10 px-4 bg-black bg:cover">
-        <FooterContent></FooterContent>
-      </footer>
+    <div className='App'>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/inscripcion' element={<Inscription />} />
+      </Routes>
     </div>
   )
 }
