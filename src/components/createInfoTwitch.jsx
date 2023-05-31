@@ -14,13 +14,15 @@ const InfoTwitch = () => {
       <div className=''>
         <iframe
           className="border-4 border-white rounded-lg w-full h-96 xl:h-full"
-          src={infosTwitch.stream}>
+          src={infosTwitch.stream}
+          loading="lazy">
         </iframe>
       </div>
       <div>
         <iframe 
           className="border-4 border-white rounded-lg w-full h-full"
           src={infosTwitch.chat}
+          loading="lazy"
         ></iframe>
       </div>
     </div>

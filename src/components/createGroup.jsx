@@ -1,7 +1,7 @@
 const Group = ({ data, Component }) => {
   return (
-    data.map((props) => (
-      <Component {...props} />
+    data.map((props, index) => (
+      <Component key={index} {...props} />
     ))
   )
 }

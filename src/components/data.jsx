@@ -39,7 +39,8 @@ export const infosYoutube = {
     icon: 'tengu',
     title: '¿Te gusta Japón? ¿Quieres aprender su idioma y su cultura?',
     info: 'Entonces este canal de youtube es para ti. Aquí encontrarás cursos de japonés, podcast y noticias relacionadas con Japón. Todo explicado de forma divertida y sencilla por profesores entusiastas. ¡Suscríbete y disfruta de este viaje con nosotros!',
-    video: 'https://www.youtube.com/embed/phAFWfiEo14'
+    video: 'https://www.youtube.com/embed/phAFWfiEo14',
+    videoId: 'phAFWfiEo14'
   } 
 
 export const infosTwitch = {

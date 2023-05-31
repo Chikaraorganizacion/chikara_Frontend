@@ -1,12 +1,12 @@
 # Chikara-Project
-Proyecto enfocado en el desarrollo de la página web de la organización Chikara
-
 ![Nombre Chikara](https://chikaraoficial.org/assets/chikara_name-ba66dbc8.webp)
 
-Carga Incial del Proyecto:
- - Se carga con una prototipo inicial como version 1.
+Proyecto enfocado en el desarrollo de la página web de la organización Chikara
 
-Requerimientos de la página para completar
+Carga Incial del Proyecto:
+ - Se carga con una prototipo inicial como version 0.3.
+
+Requerimientos de la página para completar desde la primera subida (Domingo, 28 de Mayo)
  - Desarrollo del modo oscuro de la página.
  - Cpmpletar funcionalidad del bóton del btón del banner "Unité ahora"
  - Compeltar desarrollo de las funcionalidades responsive.
@@ -14,7 +14,7 @@ Requerimientos de la página para completar
 
   - Inicio del proyecto: (Sábado, 25, Abril del 2023)
   
-    ## SEMANA MUESTRA PRIMER PROTOTIPO 
+    ## SEMANA MUESTRA PRIMER PROTOTIPO V0.1
 
   **Avances por día - Primera Semana:** 
    - Sábado, 22 de Abril: Ideas iniciales, layout (bocetos concepetuales y maqueta)
@@ -42,6 +42,8 @@ Requerimientos de la página para completar
    - Viernes, 12 de Mayo: Revision del responsive de le la setion "Comentarios" y cambio de nombre a "Nuestros miembros dice..."
    - Sábado, 13 de Mayo: ~~ - SIN AVANCE - ~~
    
+    ## SEMANA MUESTRA SEGUNDO PROTOTIPO V0.2
+
   **Avances por día - Cuarta Semana: (Desarollo de los section del main,  nueva section y DarkMode)**
    - Lunes, 15 de Mayo: Desarrollo de una nueva section "FAQ - Preguntas frecuentes", y creación diseño conceptual
    - Martes, 16 de Mayo: Desarrollo de los acordeones para preguntas y respuesta de la section "FAQ"
@@ -50,7 +52,7 @@ Requerimientos de la página para completar
    - Viernes, 19 de Mayo: Desarrollo bóton de Dark Mode, pruebas y integración en el nav-bar
    - Sábado, 20 de Mayo: *-- Segunda muestra de prototipo v0.2 implementando cambios (FALTA IMPLEMENTAR PRE-REGISTER FORM, DARKMODE y NAVBAR BUTTON) --*
    
-     ## SEMANA PRIMERA CARGA DE LA PÁGINA 
+    ## SEMANA PRIMERA CARGA DE LA PÁGINA 
 
  **Avances por día - Quinta Semana (Desarrollo de conceptos faltantes de la version 0.2 de la página)**
    - Lunes, 22 de Mayo: Integración del formulario de inscripción con ancla de "Inscripción del navbar"
@@ -61,9 +63,9 @@ Requerimientos de la página para completar
    - Sábado, 27 de Mayo: -- Tercera muestra de prototipo v0.3 implementando cambios (FALTA IMPLEMENTAR DARKMODE y NAVBAR BUTTON) --
    - Domingo, 28 de Mayo: *CARGA DE LA PÁGINA POR PRIMERA VEZ Y PRUEBAS DE GIT.*
    
-  **Avances por día - Sexta Semana: (Desarrollo de conceptos faltantes de la version 0.3 de la página - DARKMODE y NAVBAR BUTTON)**
+  **Avances por día - Sexta Semana: (Desarrollo de conceptos faltantes de la version 0.3 y correciones - DARKMODE y NAVBAR BUTTON)**
    - Lunes, 29 de Mayo: Correciones de feedback recibo y pruebas realizadas en LightHouse, GTMetrix y PageSpeed Insights.
-   - Martes, 30 de Mayo: 
+   - Martes, 30 de Mayo: Continuación de correciónes, implementación de carga diferida y optimización de imagenes.
    - Miércoles, 31 de Mayo: 
    - Jueves, 1 de Junio: 
    - Viernes, 2 de Junio: 
