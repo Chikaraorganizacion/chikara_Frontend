@@ -8,8 +8,8 @@ Carga Incial del Proyecto:
 
 Requerimientos de la página para completar desde la primera subida (Domingo, 28 de Mayo)
  - Desarrollo del modo oscuro de la página.
- - Cpmpletar funcionalidad del bóton del btón del banner "Unité ahora"
- - Compeltar desarrollo de las funcionalidades responsive.
+ - Completar funcionalidad del bóton del btón del banner "Unité ahora"
+ - Completar desarrollo de las funcionalidades responsive.
  - Responsive del botón del NavBar.
 
   - Inicio del proyecto: (Sábado, 25, Abril del 2023)
@@ -42,7 +42,7 @@ Requerimientos de la página para completar desde la primera subida (Domingo, 28
    - Viernes, 12 de Mayo: Revision del responsive de le la setion "Comentarios" y cambio de nombre a "Nuestros miembros dice..."
    - Sábado, 13 de Mayo: ~~ - SIN AVANCE - ~~
    
-    ## SEMANA MUESTRA SEGUNDO PROTOTIPO V0.2
+   ## SEMANA MUESTRA SEGUNDO PROTOTIPO V0.2
 
   **Avances por día - Cuarta Semana: (Desarollo de los section del main,  nueva section y DarkMode)**
    - Lunes, 15 de Mayo: Desarrollo de una nueva section "FAQ - Preguntas frecuentes", y creación diseño conceptual
@@ -52,7 +52,7 @@ Requerimientos de la página para completar desde la primera subida (Domingo, 28
    - Viernes, 19 de Mayo: Desarrollo bóton de Dark Mode, pruebas y integración en el nav-bar
    - Sábado, 20 de Mayo: *-- Segunda muestra de prototipo v0.2 implementando cambios (FALTA IMPLEMENTAR PRE-REGISTER FORM, DARKMODE y NAVBAR BUTTON) --*
    
-    ## SEMANA PRIMERA CARGA DE LA PÁGINA 
+   ## SEMANA PRIMERA CARGA DE LA PÁGINA 
 
  **Avances por día - Quinta Semana (Desarrollo de conceptos faltantes de la version 0.2 de la página)**
    - Lunes, 22 de Mayo: Integración del formulario de inscripción con ancla de "Inscripción del navbar"
