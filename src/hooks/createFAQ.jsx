@@ -13,15 +13,10 @@ const FAQ = () => {
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
           >
             <p className="ml-6 sm:ml-0 text-lg font-bold flex text-left sm:text-xl">{faq.question}</p>
-            <span className='self-start flex-none w-10 h-10'>
-              {openIndex === index ?
-              <svg className='hidden sm:inline-flex w-5 h-5' aria-hidden="true">
-                <use href={`/icons.svg#ic-close`} />
-              </svg > : 
-              <svg className='hidden sm:inline-flex w-5 h-5' aria-hidden="true">
+            <span className='self-start flex-none w-10 h-10'> 
+              <svg className={`sm:inline-flex w-5 h-5 transition-all ${openIndex === index ? 'rotate-45' : ''}`} aria-hidden="true">
                <use href={`/icons.svg#ic-plus`} />
               </svg >
-              }
             </span>
           </button>
           {openIndex === index && (
