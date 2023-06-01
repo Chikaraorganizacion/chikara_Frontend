@@ -16,8 +16,8 @@ const BannerContent = () => {
         <img loading="lazy" src={logos.chikaraNameDark} alt="Logo con nombre chikara"/>
       </div>
 
-      <div className='lg:w-2/3 p-10 font-bold text-left text-4xl text-gray-900 sm:text-6xl animate-fade-in-up'>
-        <p className=''>Hasta el viaje más largo comienza con un solo paso.</p>
+      <div className='lg:w-2/3 p-10 animate-fade-in-up'>
+        <p className='font-bold text-left text-4xl text-gray-900 sm:text-6xl'>Hasta el viaje más largo comienza con un solo paso.</p>
       </div>
 
       <div className='flex justify-center animate-fade-in'>

@@ -17,6 +17,30 @@ export const socialIcons = [
   }
 ]
 
+export const contact = [
+  {
+    icon: 'instagram',
+    url: 'https://www.instagram.com/chikaraoficial/',
+    color: 'orange'
+  },
+  {
+    icon: 'facebook',
+    url: 'https://www.facebook.com/chikaraoficial/',
+    color: 'sky'
+  },
+  {
+    icon: 'whastapp',
+    url: 'https://wa.me/573212214497',
+    color: 'lime'
+  },
+  {
+    icon: 'mail',
+    url: 'mailto:chikaraspain@gmail.com?subject=Chikara',
+    color: 'yellow'
+  }
+]
+
+
 export const infos = [
   {
     icon: 'temple',
@@ -36,7 +60,7 @@ export const infos = [
 ]
 
 export const infosYoutube = {
-    icon: 'tengu',
+    icon: 'koi',
     title: '¿Te gusta Japón? ¿Quieres aprender su idioma y su cultura?',
     info: 'Entonces este canal de youtube es para ti. Aquí encontrarás cursos de japonés, podcast y noticias relacionadas con Japón. Todo explicado de forma divertida y sencilla por profesores entusiastas. ¡Suscríbete y disfruta de este viaje con nosotros!',
     video: 'https://www.youtube.com/embed/phAFWfiEo14',
@@ -44,7 +68,7 @@ export const infosYoutube = {
   } 
 
 export const infosTwitch = {
-    icon: 'ramen',
+    icon: 'kabuki',
     title: '¿Te gustan los podcast y los videojuegos?',
     info: 'Entonces no te pierdas nuestro canal de Twitch, donde podrás ver charlas, conferencias, cursos, gameplays y reacciones a videos sobre Japón. Es una forma divertida y entretenida de acercarte al país del sol naciente. ¡Anímate y suscríbete!',
     stream: 'https://player.twitch.tv/?channel=chikaraoficial&parent=www.chikaraoficial.org',

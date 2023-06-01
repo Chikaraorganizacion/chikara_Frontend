@@ -66,7 +66,7 @@ Requerimientos de la página para completar desde la primera subida (Domingo, 28
   **Avances por día - Sexta Semana: (Desarrollo de conceptos faltantes de la version 0.3 y correciones - DARKMODE y NAVBAR BUTTON)**
    - Lunes, 29 de Mayo: Correciones de feedback recibo y pruebas realizadas en LightHouse, GTMetrix y PageSpeed Insights.
    - Martes, 30 de Mayo: Continuación de correciónes, implementación de carga diferida y optimización de imagenes.
-   - Miércoles, 31 de Mayo: 
+   - Miércoles, 31 de Mayo: Integración de React Route DOM para SPA de rutas. Creación de página Home e Inscription. Desarrollo e implementación de animaciones con Tailwind. Creación de tres secciones nuevas en el home (ContactUs, Pre-inscription y Donations)
    - Jueves, 1 de Junio: 
    - Viernes, 2 de Junio: 
    - Sábado, 3 de Junio: 

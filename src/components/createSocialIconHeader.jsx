@@ -3,7 +3,7 @@ const IconHeader = (props) => {
 
   return (
     <li>
-      <a className="flex items-center p-2 text-red-500 lg:text-white hover:text-red-600 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-white transition" href={`${url}`} target="_blank">
+      <a className="flex items-center p-2 text-red-500 lg:text-white hover:text-red-600 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-white duration-200 transition-all" href={`${url}`} target="_blank">
         <svg className='w-5 h-5 lg:w-10 lg:h-10'>
           <use href={`/icons.svg#ic-${icon}`} />
         </svg >
