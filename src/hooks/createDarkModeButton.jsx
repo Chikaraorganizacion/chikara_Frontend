@@ -18,12 +18,12 @@ const DarkModeButton = () => {
   }
 
   return (
-    <button onClick={handleToggle}>
+    <button onClick={handleToggle} title='Botón para cambiar entre modos oscuro y claro de la página' >
       {darkMode ? 
-      <svg className="w-14 h-14 flex p-2 text-blue-400 bg-gray-900 hover:bg-gray-500 rounded-full" fill="currentColor">
+      <svg className="w-14 h-14 flex p-2 text-blue-400 bg-gray-900 hover:bg-gray-500 rounded-full" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true">
         <use href={'/icons.svg#ic-sun'} />
       </svg>: 
-      <svg className="w-14 h-14 flex p-2 text-yellow-500 bg-white border-2 hover:bg-gray-100 rounded-full" fill="currentColor">
+      <svg className="w-14 h-14 flex p-2 text-yellow-500 bg-white border-2 hover:bg-gray-100 rounded-full" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true">
         <use href={'/icons.svg#ic-moon'} />
       </svg>
       }

@@ -5,7 +5,7 @@ const InfoCard = (props) => {
     <article className='border-2 border-red-500 p-4 rounded-2xl grid grid-cols-2 xl:grid-cols-1 relative'>
 
       <div className='absolute inset-0 opacity-20 sm:relative sm:opacity-100 sm:flex sm:items-center sm:justify-center'>
-        <svg className='w-full h-full sm:w-auto sm:h-auto sm:inline-flex lg:inline-flex' aria-hidden="true">
+        <svg className='w-full h-full sm:w-auto sm:h-auto sm:inline-flex lg:inline-flex' xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <use href={`/icons.svg#ic-${icon}`} />
         </svg >
       </div>

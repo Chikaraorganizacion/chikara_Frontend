@@ -19,8 +19,3 @@ const Home = () => {
 }
 
 export default Home
-
-/*
-Función:
-
-*/

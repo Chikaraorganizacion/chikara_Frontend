@@ -15,6 +15,7 @@ const InfoTwitch = () => {
         <iframe
           className="border-4 border-white rounded-lg w-full h-96 xl:h-full"
           src={infosTwitch.stream}
+          aria-label="Twitch video player"
           loading="lazy">
         </iframe>
       </div>
@@ -22,6 +23,7 @@ const InfoTwitch = () => {
         <iframe 
           className="border-4 border-white rounded-lg w-full h-full"
           src={infosTwitch.chat}
+          aria-label="Twitch chat player"
           loading="lazy"
         ></iframe>
       </div>

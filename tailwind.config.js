@@ -79,6 +79,7 @@ export default {
             'fade-in-up': 'fade-in-up 2s ease-out',
             'fade-out-up': 'fade-out-up 0.5s ease-out',
             'ping-short': 'ping 0.5s linear',
+            'spin-slow': 'spin 5s linear infinite',
         },
         animationDelay: {
           '1s': '1s',

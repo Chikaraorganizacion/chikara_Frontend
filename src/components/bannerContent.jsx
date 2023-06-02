@@ -21,8 +21,8 @@ const BannerContent = () => {
       </div>
 
       <div className='flex justify-center animate-fade-in'>
-        <Link className="px-4 py-5 text-white text-4xl font-bold bg-gradient-to-t from-gray-900 to-[#fd0215] border border-gray-400 shadow-xl rounded-xl focus:animate-ping-short focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white hover:-translate-y-1 hover:scale-90 hover:shadow-white hover:shadow-md duration-300 transition-all"  to="/inscripcion-completa">
-          Inscríbete ahora
+        <Link className="px-4 py-5 text-white text-4xl font-bold bg-gradient-to-t from-gray-900 to-[#fd0215] border border-gray-400 shadow-xl rounded-xl focus:animate-ping-short focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white hover:-translate-y-1 hover:scale-90 hover:shadow-white hover:shadow-md duration-300 transition-all" to="/inscripcion-completa">
+          Únete ahora
         </Link>
       </div>
     </div>

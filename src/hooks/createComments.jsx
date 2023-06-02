@@ -20,7 +20,7 @@ const Comment = () => {
       </div>
       <div className="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
         <div className="grid grid-cols-1 gap-5 md:gap-10 p-6 md:pr-24 md:pl-16 md:py-12">
-          <svg className='w-20 h-20' aria-hidden="true">
+          <svg className='w-20 h-20' xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <use href={'/icons.svg#ic-quotes'} />
           </svg >
           <p className="text-gray-600 font-bold text-center text-lg sm:text-xl">{comments[ComentarioActual].comment}</p>
@@ -31,7 +31,7 @@ const Comment = () => {
             </p>
           </div>
         </div>
-        <svg className="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <svg className="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
           <polygon points="50,0 100,0 50,100 0,100" />
         </svg>
       </div>

@@ -3,8 +3,8 @@ const IconFooter = (props) => {
 
   return (
     <li>
-      <a className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-red-500 hover:text-white rounded-full focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 focus:ring-offset-white transition" href={`${url}`} target="_blank">
-        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <a className="inline-flex justify-center items-center w-10 h-10 text-center text-gray-500 hover:bg-red-500 hover:text-white rounded-full focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 focus:ring-offset-white transition" href={`${url}`} target="_blank" aria-label={`Conoce más sobre Chikara en ${icon}`}>
+        <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
           <use href={`/icons.svg#ic-${icon}`} />
         </svg>
       </a>

@@ -11,7 +11,6 @@ const UnderConstruction = (props) => {
             onClick={() => setOpenModal(!openModal)}
           ><span className="lg:hidden visible">📰</span>{name}</button>
           {!openModal && (
-
             <div className={`fixed z-20 right-12 top-0 lg:left-0 lg:top-10 flex items-center justify-center w-64 h-3/4 lg:w-full lg:h-fit bg-gray-100 shadow-md shadow-gray-900 rounded border-2 border-red-500 py-6 px-2 opacity-100 scale-100 ${openModal ? 'filter blur-sm' : ''}`}>
               <div>
                 <div>
@@ -27,14 +26,13 @@ const UnderConstruction = (props) => {
               </div>
               <div className='fixed z-40 right-2 top-2 lg:right-4 lg:top-4 w-14 h-14 flex items-center justify-center bg-red-600 text-white rounded-full'>
                 <button onClick={() => setOpenModal(!openModal)}>
-                  <svg className="h-5 w-5 text-center">
+                  <svg className="h-5 w-5 text-center" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <use href="/icons.svg#ic-close" />
                   </svg>
                 </button>
               </div>
             </div>
           )}
-
           <div className={`fixed inset-0 transition duration-300 ${!openModal ? 'backdrop-blur-md' : 'hidden'}`}/>
         </div>
 

@@ -7,7 +7,7 @@ const ContactUs = (props) => {
         <span className="text-gray-500">{message}</span>
         <a className="inline-flex justify-center items-center gap-x-2 text-center bg-white border hover:border-black text-sm text-red-600 hover:text-red-700 font-medium hover:shadow-sm rounded-full focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4" href="https://www.facebook.com/ChikaraOficial/" target="_blank">
           {textButton}
-          <svg className="w-5 h-5" fill="none">
+          <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true">
             <use href={'/icons.svg#ic-arrowr'} />
           </svg>
         </a>

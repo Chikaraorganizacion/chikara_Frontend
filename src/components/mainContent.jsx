@@ -1,10 +1,10 @@
 import Group from '../components/createGroup'
 import Sponsor from '../components/createSponsor'
+import PreInscription from './createPreInscription'
 import MemberCard from '../components/createMember'
 import InfoCard from '../components/createInfoCard'
 import InfoTwitch from '../components/createInfoTwitch'
 import InfoYoutube from '../components/createInfoYoutube'
-import ContactUs from '../components/createContactusButton'
 import TitleSection from '../components/createTitleSection'
 import { infos, members, sponsors, socialIcons, contact } from '../components/data'
 import IconSection from './createSocialIconSection'
@@ -119,32 +119,10 @@ const MainContent = () => {
           subtitle="¡Estas a solo un clic de ingresar a nuestros cursos!"
         ></TitleSection>
 
-        <div class="max-w-[85rem] px-4 pt-10 sm:px-6 lg:px-8 lg:pt-16 mx-auto">
-          <div class="grid lg:grid-cols-2 gap-8">
-          <InfoCard 
-            icon='koi'
-            title='¿Porqué pre-inscribirse?'  
-            info='Si estás interesado en ser parte de Chikara y nuestros cursos, inicia el proceso ahora mismo al pre-inscribirte. Te enviaremos la información que necesitas a tu correo junto a un enlace con el formulario de inscripcion completo.'
-          ></InfoCard>
-
-            <form>
-              <div class="w-full sm:max-w-lg md:ml-auto">
-                <div class="flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
-                  <div class="w-full">
-                    <label for="hero-input" class="sr-only">Search</label>
-                    <input type="email" id="hero-input" name="hero-input" class="py-3 px-4 block w-full border-gray-200 shadow-sm rounded-md focus:z-10 focus:border-red-500 focus:ring-red-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400" placeholder="Ingresa tu email aquí" />
-                  </div>
-                  <a class="w-full sm:w-auto whitespace-nowrap inline-flex justify-center items-center gap-x-3 text-center bg-red-600 hover:bg-red-700 border border-transparent text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800" href="#">
-                    Enviar
-                  </a>
-                </div>
-                <p class="mt-3 text-sm text-gray-500">
-                  *No spam, solo información de los cursos.
-                </p>
-              </div>
-            </form>
-          </div>
+        <div id="preinscription" className='my-10'>
+          <PreInscription></PreInscription>
         </div>
+
 
       </section>
 

@@ -23,7 +23,7 @@ const InfoYoutube = () => {
           <iframe 
             className="border-4 border-white rounded-lg w-full h-96 xl:h-full"
             src={infosYoutube.video} 
-            title="YouTube video player" 
+            aria-label="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         ) : (
@@ -37,8 +37,9 @@ const InfoYoutube = () => {
             <button
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-full text-red-500 p-4  hover:scale-90 hover:shadow-black hover:shadow-md duration-300 transition-all"
               onClick={handlePlayButtonClick}
+              title='Botón que revela el video de YouTube insertado en al página.'
             >
-              <svg className='w-20 h-20 sm:inline-flex lg:inline-flex' aria-hidden="true">
+              <svg className='w-20 h-20 sm:inline-flex lg:inline-flex' xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <use href={'/icons.svg#ic-youtube'} />
               </svg >
             </button>

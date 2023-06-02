@@ -167,7 +167,7 @@ const InscriptionForm = () => {
           </div>
           <div className='fixed z-40 right-2 top-2 lg:right-4 lg:top-4 w-14 h-14 flex items-center justify-center bg-red-600 text-white rounded-full'>
             <button onClick={() => setOpenModal(!openModal)}>
-              <svg className="h-5 w-5 text-center">
+              <svg className="h-5 w-5 text-center" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <use href="/icons.svg#ic-close" />
               </svg>
             </button>

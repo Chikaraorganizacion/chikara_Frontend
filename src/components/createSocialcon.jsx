@@ -6,7 +6,7 @@ const SocialIcon = (props) => {
   return (
     <li>
       <a className={className} href={`${url}`} target="_blank">
-        <svg className={isHeader ? 'w-5 h-5 lg:w-10 lg:h-10' : 'w-5 h-5'} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <svg className={isHeader ? 'w-5 h-5 lg:w-10 lg:h-10' : 'w-5 h-5'} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
           <use href={`/icons.svg#ic-${icon}`} />
         </svg>
         {isHeader && <span className="px-2 text-xl font-bold text-gray-900 lg:hidden visible">{icon}</span>}

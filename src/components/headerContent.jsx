@@ -10,14 +10,14 @@ const HeaderContent = () => {
   return (
     <div id='header' className="bg-[url('/src/assets/background/bg-header.webp')] bg-cover h-screen shadow-xl">
       <BgNavBar headerRef={headerRef} />
-      <header className="p-6 flex items-center fixed top-0 left-0 right-0 z-20 xl:p-12" ref={headerRef}>
+      <header className=" p-0 lg:p-6 flex items-center fixed top-0 left-0 right-0 z-20 xl:p-12 lg:flex-none" ref={headerRef}>
           <figure className="bg-white shadow-md rounded-full hover:shadow-2xl hover:shadow-slate-50 lg:flex lg:flex-none lg:visible hidden">
             <a href="https://chikaraoficial.org/">
               <img className="h-32 w-auto lg:h-20" loading="lazy" src={logos.mainLogo} alt="chikara" />
             </a>
           </figure>
          
-        <nav className="fixed z-40 right-4 bottom-4 flex-1 lg:sticky lg:bottom-auto lg:right-0 lg:top-0">
+        <nav className="fixed z-40 right-4 bottom-4 flex-1 lg:sticky lg:bottom-auto lg:right-0 lg:top-0 ">
           <NavBarContent></NavBarContent>
         </nav>
       </header>

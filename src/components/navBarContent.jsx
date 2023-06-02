@@ -42,7 +42,7 @@ const ButtonMenu = () => {
         </div>
       </div>
       <div className='flex items-center lg:pl-5 gap-5 relative z-10'>
-        <button className="flex items-center justify-center ml-auto mr-0 w-14 h-14 text-xl bg-red-600 text-white rounded-full lg:hidden" onClick= {() => setOpenMenu(!openMenu)}>            
+        <button className="flex items-center justify-center ml-auto mr-0 w-14 h-14 text-xl bg-red-600 text-white rounded-full lg:hidden" onClick= {() => setOpenMenu(!openMenu)} title='Botón para abrir el menu desplegable de la barra de navegación' type='button' >            
           {openMenu ? 
             <svg className="h-5 w-5 text-center">
               <use href="/icons.svg#ic-close" />

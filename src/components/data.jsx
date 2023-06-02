@@ -21,25 +21,24 @@ export const contact = [
   {
     icon: 'instagram',
     url: 'https://www.instagram.com/chikaraoficial/',
-    color: 'orange'
+    color: 'text-orange-500'
   },
   {
     icon: 'facebook',
     url: 'https://www.facebook.com/chikaraoficial/',
-    color: 'sky'
+    color: 'text-sky-500'
   },
   {
     icon: 'whastapp',
     url: 'https://wa.me/573212214497',
-    color: 'lime'
+    color: 'text-lime-500'
   },
   {
     icon: 'mail',
-    url: 'mailto:chikaraspain@gmail.com?subject=Chikara',
-    color: 'yellow'
+    url: 'mailto:chikara.organizacion@gmail.com?subject=Chikara',
+    color: 'text-yellow-500'
   }
 ]
-
 
 export const infos = [
   {
@@ -138,7 +137,7 @@ export const comments = [
 export const faqs = [
   {
     question: "¿Cómo puedo inscribirme en los cursos que ofrece Chikara?",
-    answer: "Para inscribirte en uno de nuestros cursos, solo tienes que hacer clic en el botón de inscripción en la parte superior de la página. Después de inscribirte, te enviaremos información detallada sobre los cursos."
+    answer: "Para ser parte de nuestros cursos, solo tienes que hacer clic en el botón de Unirte ahora en la parte superior de la página. Después de pre-inscribirte, te enviaremos información completa sobre los cursos y los detalles para completar tu inscripción."
   },
   {
     question: "¿Los cursos de japonés tienen algún costo?",
