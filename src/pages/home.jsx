@@ -4,7 +4,7 @@ import FooterContent from '../components/footerContent'
 
 const Home = () => {
   return (
-    <div className="text-gray-700 bg-no-repeat bg-center-top grid grid-cols-1 scroll-smooth">
+    <div className="text-gray-700 bg-no-repeat bg-center-top grid grid-cols-1 scroll-smooth dark:bg-slate-900">
       <HeaderContent></HeaderContent>
 
       <main className='h-100 w-auto '>
