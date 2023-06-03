@@ -72,7 +72,11 @@ Requerimientos de la página para completar desde la primera subida (Domingo, 28
    - Martes, 30 de Mayo: Continuación de correciónes, implementación de carga diferida y optimización de imagenes.
    - Miércoles, 31 de Mayo: Integración de React Route DOM para SPA de rutas. Creación de página Home e Inscription. Desarrollo e implementación de animaciones con Tailwind. Creación de tres secciones nuevas en el home (ContactUs, Pre-inscription y Donations)
    - Jueves, 1 de Junio: Correciones de accesiblidad sugeridas por LightHouse y termianción de sección Contact Us y Pre-inscription.
+<<<<<<< HEAD
    - Viernes, 2 de Junio: Terminación secciones de Donaciones, y se completa el modo oscuro. Cuarta muestra de prototipo v0.4 *SEGUNDA CARGA DE LA PÁGINA.*
+=======
+   - Viernes, 2 de Junio: 
+>>>>>>> main
    - Sábado, 3 de Junio: 
    
   **Avances por día -  Semana:** 
