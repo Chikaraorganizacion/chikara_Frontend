@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const DarkModeButton = () => {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
 
   useEffect(() => {
     const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
