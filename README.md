@@ -1,6 +1,8 @@
 # Chikara-Project
 ![Nombre Chikara](https://chikaraoficial.org/assets/chikara_name-ba66dbc8.webp)
 
+<a href='https://ko-fi.com/chikaraoficial/' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
 Proyecto enfocado en el desarrollo de la página web de la organización Chikara
 
 Carga Incial del Proyecto:
@@ -62,13 +64,15 @@ Requerimientos de la página para completar desde la primera subida (Domingo, 28
    - Viernes, 26 de Mayo: Linting y eliminación de componentes Gruop innecesarios, sustituidos por un solo componente Group-
    - Sábado, 27 de Mayo: -- Tercera muestra de prototipo v0.3 implementando cambios (FALTA IMPLEMENTAR DARKMODE y NAVBAR BUTTON) --
    - Domingo, 28 de Mayo: *CARGA DE LA PÁGINA POR PRIMERA VEZ Y PRUEBAS DE GIT.*
+ 
+  ## SEMANA SEGUNDA CARGA DE LA PÁGINA
    
   **Avances por día - Sexta Semana: (Desarrollo de conceptos faltantes de la version 0.3 y correciones - DARKMODE y NAVBAR BUTTON)**
    - Lunes, 29 de Mayo: Correciones de feedback recibo y pruebas realizadas en LightHouse, GTMetrix y PageSpeed Insights.
    - Martes, 30 de Mayo: Continuación de correciónes, implementación de carga diferida y optimización de imagenes.
    - Miércoles, 31 de Mayo: Integración de React Route DOM para SPA de rutas. Creación de página Home e Inscription. Desarrollo e implementación de animaciones con Tailwind. Creación de tres secciones nuevas en el home (ContactUs, Pre-inscription y Donations)
-   - Jueves, 1 de Junio: 
-   - Viernes, 2 de Junio: 
+   - Jueves, 1 de Junio: Correciones de accesiblidad sugeridas por LightHouse y termianción de sección Contact Us y Pre-inscription.
+   - Viernes, 2 de Junio: Terminación secciones de Donaciones, y se completa el modo oscuro. Cuarta muestra de prototipo v0.4 *SEGUNDA CARGA DE LA PÁGINA.*
    - Sábado, 3 de Junio: 
    
   **Avances por día -  Semana:** 

@@ -2,10 +2,10 @@ const TitleSection = (props) => {
   const {title, subtitle} = props
 
   return (
-    <header className="flex flex-wrap justify-center text-center gap-4">
+    <header className="flex flex-wrap justify-center text-center gap-4 ">
       <div>
-        <div className="font-mont text-3xl uppercase text-gray-900 font-black mb-2 sm:text-4xl mx-a">{title}</div>
-        <p className="sm:text-xl">{subtitle}</p>
+        <div className="font-mont text-3xl uppercase text-gray-900 font-black mb-2 sm:text-4xl dark:text-gray-100">{title}</div>
+        <p className="sm:text-xl text-gray-800 dark:text-gray-200">{subtitle}</p>
       </div>
     </header>
   )

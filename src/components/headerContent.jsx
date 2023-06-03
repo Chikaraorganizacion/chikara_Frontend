@@ -12,7 +12,7 @@ const HeaderContent = () => {
       <BgNavBar headerRef={headerRef} />
       <header className=" p-0 lg:p-6 flex items-center fixed top-0 left-0 right-0 z-20 xl:p-12 lg:flex-none" ref={headerRef}>
           <figure className="bg-white shadow-md rounded-full hover:shadow-2xl hover:shadow-slate-50 lg:flex lg:flex-none lg:visible hidden">
-            <a href="https://chikaraoficial.org/">
+            <a href="#banner">
               <img className="h-32 w-auto lg:h-20" loading="lazy" src={logos.mainLogo} alt="chikara" />
             </a>
           </figure>
@@ -22,7 +22,7 @@ const HeaderContent = () => {
         </nav>
       </header>
 
-      <section className='h-full p-6 flex items-center justify-center xl:px-12 xl:max-w-screen-2xl xl:mx-auto sm:1/2' >
+      <section id='banner' className='h-full p-6 flex items-center justify-center xl:px-12 xl:max-w-screen-2xl xl:mx-auto sm:1/2' >
         <BannerContent></BannerContent>
       </section>
     </div>

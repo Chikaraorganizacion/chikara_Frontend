@@ -1,11 +1,8 @@
 import { useState} from 'react'
-import {Link} from 'react-router-dom'
 
 import Group from '../components/createGroup'
 import IconHeader from '../components/createSocialIconHeader'
 import { socialIcons } from '../components/data'
-
-import UnderConstruction from '../hooks/underConstruction'
 import DarkModeButton from '../hooks/createDarkModeButton'
 
 const ButtonMenu = () => {
@@ -14,22 +11,25 @@ const ButtonMenu = () => {
     <div>
       <div id='navbar' className={`bg-white shadow-md rounded border border-gray-100 p-4 mb-4 w-60 absolute right-0 bottom-0 lg:static lg:w-full lg:flex lg:items-center lg:bg-transparent lg:justify-between lg:border-0 lg:shadow-none lg:p-0 lg:mb-0 lg:transform-none lg:opacity-100 lg:scale-100 ${openMenu ? 'lg:visible' : 'hidden'} relative z-10`}>
         <ul className="text-xl font-bold text-gray-900 lg:flex lg:items-center lg:mb-0 lg:gap-8 lg:flex-1 lg:justify-center">
-          <li>
-            <Link className="flex p-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent" to="https://chikaraoficial.org/">
-              <span className="lg:hidden visible">🔍</span>
-            Inicio</Link>
+          <li className="lg:hidden visible">
+            <a className="flex p-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent" href="/#">
+              <span>🙋</span>
+            Inicio</a>
           </li>
           <li>
-            <UnderConstruction name='Enteraté'></UnderConstruction>
-          </li>
-          <li>
-            <Link className="flex p-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent" to="/inscripcion-completa">
+            <a className="flex p-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent" href="#preinscriptionSection">
               <span className="lg:hidden visible">🙋</span>
-            Inscripción</Link>
+            Inscripción</a>
           </li>
           <li>
-            <a className="flex p-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white  lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent" href="https://chikaraoficial.org/donaciones/">
-              <span className="lg:hidden visible">❤️</span>Donaciones</a>
+            <a className="flex p-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent" href="#donationsSection">
+              <span className="lg:hidden visible">🔍</span>
+            Donaciones</a>
+          </li>
+          <li>
+            <a className="flex p-2 hover:bg-indigo-50 hover:text-red-600 rounded-full lg:text-3xl lg:text-white lg:rounded-none lg:py-8 lg:px-0 lg:hover:bg-transparent" href="#contactusSection">
+              <span className="lg:hidden visible">🔍</span>
+            Contáctanos</a>
           </li>
         </ul>
         <nav className="text-red-600 text-2xl">

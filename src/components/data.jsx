@@ -58,7 +58,7 @@ export const infos = [
   }
 ]
 
-export const infosYoutube = {
+export const infoYoutube = {
     icon: 'koi',
     title: '¿Te gusta Japón? ¿Quieres aprender su idioma y su cultura?',
     info: 'Entonces este canal de youtube es para ti. Aquí encontrarás cursos de japonés, podcast y noticias relacionadas con Japón. Todo explicado de forma divertida y sencilla por profesores entusiastas. ¡Suscríbete y disfruta de este viaje con nosotros!',
@@ -66,7 +66,7 @@ export const infosYoutube = {
     videoId: 'phAFWfiEo14'
   } 
 
-export const infosTwitch = {
+export const infoTwitch = {
     icon: 'kabuki',
     title: '¿Te gustan los podcast y los videojuegos?',
     info: 'Entonces no te pierdas nuestro canal de Twitch, donde podrás ver charlas, conferencias, cursos, gameplays y reacciones a videos sobre Japón. Es una forma divertida y entretenida de acercarte al país del sol naciente. ¡Anímate y suscríbete!',
@@ -74,27 +74,30 @@ export const infosTwitch = {
     chat: 'https://www.twitch.tv/embed/chikaraoficial/chat?parent=www.chikaraoficial.org'
   }
 
-export const comments = [
+export const testimonials = [
   {
     name: 'Ivon Peralta',
     image: 'certificateIvon',
     location: 'Funza, Colombia',
     flag: 'colombia',
-    comment: 'Este curso fue una excelente introducción al idioma japonés. Los profesores eran muy amables y pacientes, y el material del curso estaba bien organizado.'
+    rol: 'Estudiante',
+    testimonial: 'Este curso fue una excelente introducción al idioma japonés. Los profesores eran muy amables y pacientes, y el material del curso estaba bien organizado.'
   },
   {
     name: 'Tatiana Lopez',
     image: 'certificateTatiana',
     location: 'Mosquera, Colombia',
     flag: 'colombia',
-    comment: 'Aprendí mucho en este curso de japonés básico. Los ejercicios prácticos y las actividades en grupo fueron muy útiles para mejorar mis habilidades.'
+    rol: 'Profesora',
+    testimonial: 'Aprendí mucho en este curso de japonés básico. Los ejercicios prácticos y las actividades en grupo fueron muy útiles para mejorar mis habilidades.'
   },
   {
     name: 'Yajaira Ibarra',
     image: 'certificateYajaira',
     location: 'México',
     flag: 'mexico',
-    comment: 'Aprendí mucho sobre la cultura japonesa a través de este curso y me siento más conectado con el país'
+    rol: 'Estudiante',
+    testimonial: 'Aprendí mucho sobre la cultura japonesa a través de este curso y me siento más conectado con el país'
   },
     
   {
@@ -102,35 +105,40 @@ export const comments = [
     image: 'certificateSofia',
     location: 'Funza, Colombia',
     flag: 'colombia',
-    comment: 'Me encantó este curso de japonés básico. Los profesores eran muy conocedores y el contenido del curso estaba bien estructurado. ¡Definitivamente lo recomendaría a cualquiera que quiera aprender japonés!'
+    rol: 'Estudiante',
+    testimonial: 'Me encantó este curso de japonés básico. Los profesores eran muy conocedores y el contenido del curso estaba bien estructurado. ¡Definitivamente lo recomendaría a cualquiera que quiera aprender japonés!'
   },
   {
     name: 'Anónimo',
     image: 'certificateAnonimo',
     location: 'México',
     flag: 'mexico',
-    comment: 'Este curso de japonés básico superó mis expectativas. Aprendí mucho en un corto período de tiempo y me siento más segura hablando japonés ahora.'
+    rol: 'Estudiante',
+    testimonial: 'Este curso de japonés básico superó mis expectativas. Aprendí mucho en un corto período de tiempo y me siento más segura hablando japonés ahora.'
   },
   {
     name: 'Rowina Elizondo',
     image: 'certificateRowina',
     location: 'Ciudad de México, México',
     flag: 'mexico',
-    comment: 'El ambiente del curso era muy amigable y me sentí cómoda haciendo preguntas y participando en las discusiones.'
+    rol: 'Estudiante',
+    testimonial: 'El ambiente del curso era muy amigable y me sentí cómoda haciendo preguntas y participando en las discusiones.'
   },
   {
     name: 'Jesus Castellanos',
     image: 'certificateJesus',
     location: 'Mosquera, Colombia',
     flag: 'colombia',
-    comment: 'Tender la oportunidad de enseñar lo mucho que aprendí en Chikara sobre la cultura japonesa a través de estos cursos me hizo sientir más conectado con el país.'
+    rol: 'Profesor',
+    testimonial: 'Tender la oportunidad de enseñar lo mucho que aprendí en Chikara sobre la cultura japonesa a través de estos cursos me hizo sientir más conectado con el país.'
   },
   {
     name: 'Ricardo Mayorga',
     image: 'certificateRicardo',
     location: 'Mosquera, Colombia',
     flag: 'colombia',
-    comment: 'Este curso fue una excelente oportunidad para introducir al idioma japonés personas con la motivación y ganas de aprender.'
+    rol: 'Profesor',
+    testimonial: 'Este curso fue una excelente oportunidad para introducir al idioma japonés personas con la motivación y ganas de aprender.'
   }
 ]
 
